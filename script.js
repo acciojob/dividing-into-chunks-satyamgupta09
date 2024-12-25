@@ -6,10 +6,10 @@ const divide = (arr, n) => {
 	let ans=[];
 	let curr=[];
 
-	for(let i=0;i<arr.lenght;i++){
+	for(let i=0;i<arr.length;i++){
 		if(sum+arr[i]<=n){
 			curr.push(arr[i]);
-			sum=arr[i];
+			sum+=arr[i];
 		}
 		else{
 			ans.push(curr);
