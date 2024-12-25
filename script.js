@@ -17,6 +17,7 @@ const divide = (arr, n) => {
 			curr=[arr[i]];
 		}
 	}
+	ans.push(curr);
 	return ans;
 };
 
